@@ -20,7 +20,7 @@
     "webpack-cli": "^5.0.1"
   },
   "name": "ajs_5_1-classes_inheritance",
-  "version": "2.0.0",
+  "version": "2npm -v.0.0",
   "main": "webpack.config.js",
   "scripts": {
     "test": "jest --coverage",
