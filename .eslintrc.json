@@ -1,0 +1,22 @@
+{
+    "env": {
+       "es6": true,
+       "browser": true,
+       "jest": true
+    },
+    "extends": "airbnb-base",
+    "parser": "@babel/eslint-parser",
+    "parserOptions": {
+      "ecmaVersion": 2020,
+      "sourseType": "module"
+    },
+    "rules": {
+    //   "import/no-named-as-default": 0,
+    //   "import/no-named-as-default-member": 0,
+      "no-restricted-syntax": [
+        "error",
+        "LabeledStatement",
+        "WithStatement"
+      ]
+    }
+  }
